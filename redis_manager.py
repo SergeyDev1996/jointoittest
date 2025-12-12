@@ -1,10 +1,5 @@
 import asyncio
-import json
 import logging
-import os
-import signal
-import time
-from datetime import datetime, timedelta
 from typing import Optional
 
 from redis.asyncio import Redis
